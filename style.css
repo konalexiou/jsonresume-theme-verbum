@@ -318,7 +318,7 @@ section {
     color: #646466 !important;
   }
   body {
-    font: 15px Arial, Helvetica, sans-serif;
+    font: 10px Arial, Helvetica, sans-serif;
     line-height: 1.4;
     color: #929292 !important;
   }
@@ -363,7 +363,7 @@ section {
 
   /* Sidebar */
   .sidebar {
-    padding: 2rem;
+    padding: 2rem 2rem 2rem 3rem;
     background: #E6EAED !important;
     margin-bottom: -99999px;
     padding-bottom: 99999px;
@@ -435,9 +435,14 @@ section {
     color: #ffffff !important;
   }
 
+  .sidebar .section-skills .keywords span.label{
+    display: inline-block !important;
+    margin-bottom: 0.3rem !important;
+  }
+
   /* Content */
   .content {
-    padding: 0 5rem 0 2rem;
+    padding: 0 3rem 0 2rem;
     padding-bottom: 0px;
     background: #FFFFFF;
     margin-bottom: -99999px;
